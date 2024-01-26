@@ -1,0 +1,7 @@
+create database groupchat;
+use groupchat;
+CREATE TABLE NewUser(
+                     username VARCHAR(20) PRIMARY KEY,
+                     password VARCHAR(20),
+                     image LONGBLOB
+);
