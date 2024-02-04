@@ -18,11 +18,7 @@
             <Image url="@../icons/profile.png" />
          </image>
       </ImageView>
-      <Text layoutX="81.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Online">
-         <font>
-            <Font size="20.0" />
-         </font>
-      </Text>
+      <Text layoutX="81.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Online" />
       <TextField fx:id="textfield" layoutX="51.0" layoutY="713.0" prefHeight="31.0" prefWidth="365.0" style="-fx-background-color: #C0C0C0; -fx-background-radius: 20;" />
       <ImageView fitHeight="31.0" fitWidth="35.0" layoutX="444.0" layoutY="711.0" onMouseClicked="#lblSendEmojis" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -39,9 +35,9 @@
             <Image url="@../icons/send.png" />
          </image>
       </ImageView>
-      <Label fx:id="lblUserName" layoutX="81.0" layoutY="14.0" prefHeight="21.0" prefWidth="92.0">
+      <Label fx:id="lblUserName" layoutX="74.0" layoutY="16.0" prefHeight="21.0" prefWidth="92.0">
          <font>
-            <Font size="19.0" />
+            <Font name="Bell MT Bold" size="20.0" />
          </font></Label>
       <ImageView fitHeight="27.0" fitWidth="16.0" layoutX="499.0" layoutY="5.0" onMouseClicked="#lblMinimizeOnAction" pickOnBounds="true" preserveRatio="true">
          <image>

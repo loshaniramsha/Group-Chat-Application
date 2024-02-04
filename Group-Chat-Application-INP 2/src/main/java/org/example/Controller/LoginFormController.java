@@ -12,6 +12,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import org.example.Dto.UserDto;
 import org.example.Model.UserModel;
+import org.example.Server.Server;
 import org.example.client.Client;
 
 import java.io.IOException;
@@ -29,6 +30,10 @@ public class LoginFormController {
     public TextField textPassWord;
     public Hyperlink creatAccount;
     public ImageView imageView;
+
+    public void initialize() throws IOException {
+        Server.main(null);
+    }
 
     public void loginOnAction(ActionEvent actionEvent) throws Exception, SQLException {
         if (!textUserNamer.getText().isEmpty() || !textPassWord.getText().isEmpty()) {
