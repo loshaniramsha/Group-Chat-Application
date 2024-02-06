@@ -5,3 +5,11 @@ CREATE TABLE NewUser(
                      password VARCHAR(20),
                      image LONGBLOB
 );
+
+create table chat(
+userName varchar(20),
+id varchar(20),
+massege varchar(500),
+image longblob,
+time varchar(30)
+);
